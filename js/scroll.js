@@ -1,5 +1,5 @@
 window.sr = ScrollReveal({ reset:true});
-ScrollReveal({ distance: '20px' });
+ScrollReveal({ distance: '15px' });
 sr.reveal('.minha-imagem', {duration : 3000, origin: 'right'})
 sr.reveal('.imagem-livro', {duration : 3000, origin: 'left'})
 sr.reveal('.introducao', {duration : 3000, origin: 'left'})
