@@ -1,0 +1,110 @@
+* {
+  font-family: "Roboto Mono";
+}
+
+nav, #sobre-mim, #habilidades {
+  background-color: #7c25f8;
+}
+
+#habilidades, #sobre-mim h1 {
+  color: white;
+}
+
+#sobre-mim p {
+  color: white;
+}
+
+#sobre-mim hr {
+  color: white;
+}
+
+#nav-principal a {
+  color: white;
+  border-radius: 60%;
+  border: 1px solid white;
+}
+
+#nav-principal a:hover {
+  color: #7c25f8;
+  background-color: white;
+}
+
+#contato a {
+  color: #7c25f8;
+  border-radius: 60%;
+  border: 1px solid #7c25f8;
+}
+
+#contato a:hover {
+  color: black;
+  border-radius: 60%;
+  border: 1px solid black;
+}
+
+#rodape a {
+  color: #7c25f8;
+  border-radius: 60%;
+  border: 1px solid #7c25f8;
+}
+
+#rodape a:hover {
+  color: black;
+  border-radius: 60%;
+  border: 1px solid black;
+}
+
+#projeto .btn-custom:hover {
+  color: white;
+  background-color: #7c25f8;
+}
+
+.btn-custom {
+  border-color: #7c25f8;
+  color: #7c25f8;
+  border-radius: 5em;
+}
+
+.surgir {
+  animation: escrever 4s normal;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.meu-nome::after {
+  content: "|";
+  margin-right: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+
+.livro-animacao {
+  position: relative;
+  animation: pula-pula 2.1s infinite alternate-reverse linear;
+}
+
+@keyframes pisca {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes escrever {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes pula-pula {
+  from {
+    top: -15px;
+  }
+  to {
+    top: 25px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

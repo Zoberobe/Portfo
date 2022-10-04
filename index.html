@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.js" integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/320df2c1dd.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header><!-- inicio Cabecalho -->
+        <nav class="navbar navbar-expand-md navbar-light navbar-transparent sticky-top">
+          <div class="container navbar-collapse pb-2 ">          
+
+            <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#nav-principal">
+              <i class="fa-solid fa-bars text-dark"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="nav-principal">
+              <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item px-2 pt-2">
+                  <a href="#home" class="nav-link active rounded-5">Ínicio</a>
+                </li>
+
+                <li class="nav-item px-2 pt-2">
+                  <a href="#botao-projeto" class="nav-link rounded-5">Projetos</a>
+                </li>
+
+                <li class="nav-item px-2 pt-2">
+                  <a href="#sobre-mim" class="nav-link rounded-5">Sobre mim</a>
+                </li>
+
+                <li class="nav-item px-2 pt-2">
+                    <a href="#habilidades" class="nav-link rounded-5">Habilidades</a>
+                  </li>
+
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+      </header><!--/fim Cabecalho -->
+
+      <section id="home" class="my-5"> <!-- inicio seção home -->
+        <div class="container">
+          <div class="row">
+
+            <div class="d-flex col-md-6">
+
+                <div class="align-self-center introducao" id="contato">
+
+                  <h1 class="d-flex text-nowrap surgir display-4 meu-nome">Olá, me chamo Alex.</h1>
+                  <hr>
+                  <p class="d-flex">
+                    E este é meu portfólio de desenvolvedor Web, através dele disponibilizarei, meus contatos e darei uma descritiva perante os meus projetos realizados.
+                  </p>
+                  
+                
+                   
+                    <div class="d-flex mb-3">
+                      <a href="https://www.linkedin.com/in/alex-augusto-castro-boscariol-13651b1a4/" target="_blank" class="btn me-auto flex-fill rounded-2">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </a>
+
+                      <a href="https://github.com/Zoberobe?tab=repositories" target="_blank" class="btn me-auto flex-fill  rounded-2">
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                    </div>
+
+                </div>
+              </div>
+  
+            <div class="col-md-6 d-none d-md-block">
+                 <img class="minha-imagem" src="imagens/pagina-inicial/teste.png" height="400">
+             </div>
+  
+          </div>     
+        </div>
+      </section> <!-- fim seção home -->
+
+      <section id="sobre-mim" class="my-5"> <!-- inicio seção sobre-mim -->
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-6 d-none d-md-block p-5 imagem-livro livro-animacao">
+              <img src="imagens/pagina-inicial/e-book.png" height="300">
+             </div>
+
+            <div class="d-flex col-md-6 p-5 sobre-mim">
+
+                <div class="align-self-start textos-descritivos">
+
+                  <h1 class="display-4 d-flex text-nowrap surgir">Sobre mim:</h1>
+                  <hr>
+                  <p class="d-flex">
+                    Iniciei no mundo do desenvolvimento web em 2020, com um curso técnico "Análise e Desenvolvimento de sistemas", desde lá realizei alguns projetos, com foco tanto no Front End, quanto no Back-End. Já entendo das seguintes tecnologias: PHP, Javascript, Bootstrap, Mysql, AJax, Jquery e Sass, abaixo estará alguns projetos que eu realizei.
+                  </p>  
+
+                </div>
+              </div>
+  
+          </div>     
+        </div>
+      </section> <!-- fim seção sobre-mim -->
+
+      <section id="projeto" class="my-4"> <!-- inicio seção projeto -->
+        <div class="container">
+          <div class="row">
+
+            <div class="d-flex col-md-12  p-5">
+
+                <div class="">
+
+                  <h3 class="d-flex titulo-projetos">
+                    Projetos Realizados em:
+                  </h3>
+                  <hr>
+                 
+                  <div class="btn-group titulo-projetos mb-2" role="group" id="botao-projeto">
+                    <a id="Html-css" class="btn btn-custom" href="#botao-projeto">Html-Css</a>
+                    <a id="Html-Css-Javascript" class="btn btn-custom" href="#botao-projeto">Html-Css-Javascript</a>
+                    <a id="Html-Css-Php-Mysql" class="btn btn-custom" href="#botao-projeto">Html-Css-Php</a>
+                  </div>
+
+                  <div id="projetos" class="div-projetos">
+                    <div id="carousel" class="carousel carousel-dark slide carousel-fade" data-bs-ride="false"><div class="carousel-indicators"><button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button><button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button><button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button><button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button></div><div class="carousel-inner"><div class="carousel-item active"><a href="https://github.com/Zoberobe/Css-Basic/tree/main/projetoTec" target="_blank"><img src="imagens/img-projetos/html-css/tec-blog.png" class="d-block w-100"></a></div><div class="carousel-item"><a href="https://github.com/Zoberobe/css-advanced" target="_blank" ><img src="imagens/img-projetos/html-css/noticias.png" class="d-block w-100"></a></div><div class="carousel-item"><a href="https://github.com/Zoberobe/css-advanced" target="_blank"><img src="imagens/img-projetos/html-css/museu.png" class="d-block w-100"></a></div><div class="carousel-item"><a href="https://github.com/Zoberobe/projeto-finans" target="_blank"><img src="imagens/img-projetos/html-css/finans.png" class="d-block w-100"></a></div><div class="carousel-item"><a href="https://github.com/Zoberobe/spotify-clone" target="_blank"><img src="imagens/img-projetos/html-css/spotify.png" class="d-block w-100"></a></div><button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div></div>
+                  </div>
+
+                </div>
+  
+              </div>     
+            </div>
+      </section> <!-- fim seção projeto -->  
+
+      <section id="habilidades" class="mt-5"> <!-- inicio seção habilidades -->
+        <div class="container">
+          <div class="row">
+
+            <div class="container col-md-6 align-self-center p-5 habilidades">
+                <div class="row row-cols-3">
+                  <div class="col habilidades-js pb-4">
+                    <a>
+                      <img src="imagens/icones/javascript.png" width="100">
+                      </a>
+                  </div>
+                  <div class="col habilidades-js pb-4">
+                    <a>
+                      <img src="imagens/icones/php.png" width="100">
+                      </a>
+                  </div>
+                  <div class="col habilidades-js pb-4">
+                    <a>
+                      <img src="imagens/icones/mysql.png" width="100">
+                      </a>
+                  </div>
+                  <div class="col pt-2 habilidades-js">
+                    <a>
+                      <img src="imagens/icones/sass.png" width="100">
+                      </a>
+                  </div>
+                  <div  class="col pt-2 habilidades-js">
+                    <a>
+                      <img src="imagens/icones/wordpress.png" width="100">
+                      </a>
+                  </div>
+                  <div  class="col pt-2 habilidades-js">
+                    <a>
+                      <img src="imagens/icones/bootstrap.png" width="100">
+                      </a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="d-flex col-md-6 p-5 sobre-mim">
+
+                <div class="align-self-start textos-descritivos">
+
+                  <h1 class="d-flex text-nowrap surgir">Habilidades:</h1>
+                  <hr>
+                  <p class="d-flex descricao">
+                    Coloque o mouse sobre uma das imagens, para receber uma descritiva breve de cada componente.
+                  </p>  
+
+                </div>
+              </div>
+  
+          </div>     
+        </div>
+      </section> <!-- fim seção sobre-mim -->
+
+      <footer id="rodape" class="mt-4 mb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 d-flex justify-content-end">
+              <a href="https://www.linkedin.com/in/alex-augusto-castro-boscariol-13651b1a4/" target="_blank" class="btn mx-md-1 rounded-2">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/Zoberobe?tab=repositories" target="_blank" class="btn mx-md-1 rounded-2">
+                <i class="fa-brands fa-github"></i>
+              </a>     
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="js/scroll.js"></script>
+<script src="js/projetos.js"></script>
+<script src="js/habilidades.js"></script>
+</body>
+</html>
